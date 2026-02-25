@@ -94,6 +94,6 @@ app.get('/fetchData', async (req, res) => {
 //     res.json(`ID deleted succesfully ${deleteID}`);
 // })
 
-app.listen(3000, () => {
-    console.log("listneing post 3000");
-})
+app.listen(3000, '0.0.0.0', () => {
+  console.log("Server running on port 3000");
+});
