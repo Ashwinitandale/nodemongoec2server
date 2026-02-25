@@ -10,7 +10,7 @@ app.use(express.json());
 
 
 //db connection
-mongoose.connect('mongodb://13.201.46.148/:27017/users_db')
+mongoose.connect('mongodb://13.201.46.148:27017/users_db')
     .then(() => console.log("connected db success"))
     .catch(err => console.log(err))
 
